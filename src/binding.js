@@ -21,6 +21,8 @@ class CodeMirrorInputBinding extends Shiny.InputBinding {
       extensions: [
         basicSetup,
         sql(),
+        // I did not find another way to subscibe to changes
+        // in CodeMirror 6
         EditorView.updateListener.of((update) => {
           if (update.docChanged) {
             callback();
