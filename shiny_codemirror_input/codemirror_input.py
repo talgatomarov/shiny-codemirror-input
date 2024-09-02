@@ -4,7 +4,7 @@ from shiny.module import resolve_id
 
 codemirror_input_deps = HTMLDependency(
     "codemirror-input",
-    "1.0.0",
+    "0.1.0",
     source = {
         "package": "shiny_codemirror_input",
         "subdir": str(PurePath(__file__).parent / "distjs"),
