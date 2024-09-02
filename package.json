@@ -1,0 +1,19 @@
+{
+  "name": "shiny-codemirror-input",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/binding.js --bundle --outfile=shiny_codemirror_input/distjs/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.23.1"
+  },
+  "dependencies": {
+    "@codemirror/lang-sql": "^6.7.1",
+    "codemirror": "^6.0.1"
+  }
+}
