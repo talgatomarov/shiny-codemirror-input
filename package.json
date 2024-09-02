@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild src/binding.js --bundle --outfile=shiny_codemirror_input/distjs/index.js"
+    "build": "node esbuild.config.js",
+    "watch": "node esbuild.config.js --watch"
   },
   "author": "",
   "license": "ISC",
