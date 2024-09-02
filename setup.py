@@ -11,6 +11,9 @@ setup(
     url='https://github.com/talgatomarov/shiny-codemirror-input',  # or other repository
     packages=find_packages(),  # Automatically find packages in your project
     python_requires='>=3.6',
+    package_data={
+        'shiny_codemirror_input': ['distjs/*.js'],  # Adjust this path as needed
+    },
     install_requires=[
         # list your module dependencies here, e.g. 'requests', 'numpy'
         "shiny"
