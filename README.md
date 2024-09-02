@@ -8,7 +8,7 @@ If you are interested in a more generic implementation, please open an issue to 
 ## Installation
 
 ```bash
-pip install https://github.com/talgatomarov/shiny-codemirror-input
+pip install git+https://github.com/talgatomarov/shiny-codemirror-input
 ```
 
 ## Usage Example
